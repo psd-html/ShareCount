@@ -52,11 +52,7 @@ class ShareCount extends plxPlugin {
 
     public function ThemeEndBody(){ ?>
 
-    <script type="text/javascript">
-        /* <![CDATA[ */
-           if(typeof(jQuery) === "undefined") document.write(\'<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"><\/script>\');
-        /* !]]> */
-        </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
     <script>
